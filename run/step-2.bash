@@ -6,7 +6,7 @@
 cd ../vote || exit
 
 # Installation des dépendances
-pip install -r requirements.txt
+python.exe -m pip install -r requirements.txt
 
 # Lancement du serveur
-python app.py
+python.exe app.py

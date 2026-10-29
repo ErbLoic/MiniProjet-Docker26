@@ -2,7 +2,7 @@
 
 # Étape 3 - PostgreSQL
 
-docker run \
+docker.exe run \
     --rm \
     -p 5432:5432 \
     -e POSTGRES_USER=postgres \

@@ -2,7 +2,7 @@
 
 # Étape 1 - Redis
 
-docker run \
+docker.exe run \
     --rm \
     -p 6379:6379 \
     redis

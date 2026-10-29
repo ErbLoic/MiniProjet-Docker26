@@ -6,10 +6,10 @@
 cd ../worker || exit
 
 # Installation des dépendances
-dotnet restore
+dotnet.exe restore
 
 # Production d'un exécutable
-dotnet publish -c release --self-contained false --no-restore
+dotnet.exe publish -c release --self-contained false --no-restore
 
 # Lancement du serveur
-dotnet bin/release/net7.0/Worker.dll
+dotnet.exe bin/release/net7.0/Worker.dll
